@@ -57,8 +57,8 @@ def smooth(path, weight_data=0.5, weight_smooth=0.1, tolerance=0.000001):
 printpaths(path, smooth(path))
 
 
-import matplotlib.pyplot as plt
-
-plt.plot(path)
-plt.plot(smooth(path))
-plt.show()
+# import matplotlib.pyplot as plt
+#
+# plt.plot(path)
+# plt.plot(smooth(path))
+# plt.show()
